@@ -1,1 +1,1 @@
-A simple Hello World application using GoLang
+# A simple Hello World application using GoLang
