@@ -32,7 +32,7 @@ COPY --from=builder /app/main .
 
 # Expose port 8080 to the outside world
 EXPOSE 8080
-RUN chmod +x ./main
+RUN chmod a+x ./main
 
 # Command to run the executable
 CMD ["./main"] 
