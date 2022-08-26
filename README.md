@@ -13,8 +13,8 @@ go build -o ./go-hello-world
 ./go-hello-world
 
 #Execute this in another terminal
-$ curl localhost:8080?name=Tom 
-Hello, Tom
+$ curl localhost:3000 
+<h1>Hello World</h1>
 ```
 
 ## Building image 
